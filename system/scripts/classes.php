@@ -36,7 +36,22 @@ class sql{ // Class to mysqli functions
     }else{ // If there were no errors
       return $r; // Return the MySQL resutl sent back from the server
     }
+  }function login($name, $password){
+    
+  }
+
+
+
+
+
+
+  function error($text, $title = ""){ // Display an error
+    echo '
+    <div class="window">';
+    	reateTitleBar($title);
+    echo $text.'
+    </div>
+    ';
   }
 }
-
 ?>
