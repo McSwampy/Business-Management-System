@@ -1,0 +1,54 @@
+*{
+
+}html{
+
+}body{
+	background-color: #222;
+	font-family: "Open Sans", sans-serif, Arial, Helvetica;
+}
+
+
+
+form{
+		display: table;
+		margin: auto;
+		position: relative;
+		background-color: white;
+}input{
+	background-color: rgb(195, 195, 195);
+}input:hover{
+	background-color: rgb(140, 140, 140);
+}input:focus{
+	background-color: rgb(120, 120, 120);
+	color: white;
+}button{
+	background-color: rgb(120, 120, 120);
+	color: white;
+	cursor: pointer;
+}button:hover{
+	background-color: rgb(80, 80, 80);
+}
+
+
+
+form.login{
+	width: 300px;
+	padding: 20px;
+  top: 20%;
+}form.login input{
+	width: 100%;
+	padding: 5px;
+	color: black;
+	border-width: 1px;
+	margin-bottom: 10px;
+	font-size: 25px;
+	text-align: center;
+	outline: 0;
+}form.login button{
+	width: 100%;
+	font-size: 25px;
+	border: 1px solid white;
+	padding: 5px;
+}form.login span.error{
+	color: red;
+}
